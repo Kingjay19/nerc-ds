@@ -1,0 +1,39 @@
+.side-bar {
+    background-color: #182252;
+    color: #fff;
+    width: 236px;
+    font-size: 14px;
+    height: 100vh;
+    box-sizing: border-box;
+    position: sticky;
+}
+.side-icons {
+    width: 15px;
+}
+
+.side-bar-components {
+    padding: 10px 0;
+}
+
+.side-bar-components > img {
+    margin: 20px;
+}
+.ind-components {
+    display: flex;
+    align-items: center;
+    padding: 10px  20px;
+}
+
+.ind-components > p {
+    padding-left: 15px;
+}
+
+.ind-components:first-of-type {
+    border-right: 4px solid #00A5AB;
+    background-color: #273680;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.ind-components:last-of-type {
+    padding: 100px 20px;
+}

@@ -1,0 +1,13 @@
+section {
+    display: flex;
+}
+
+.section-1 {
+    position: fixed;
+}
+
+.section-2 {
+    padding: 10px;
+    width: 100%;
+    margin-left: 250px;
+}

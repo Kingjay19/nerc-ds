@@ -1,0 +1,50 @@
+.documents {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.documents img {
+    width: 50px;
+}
+h1 {
+    font-size: 20px;
+}
+p {
+    font-size: 14px;
+}
+
+.tasks {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-evenly;
+}
+
+.task-element {
+    border-radius: 4px;
+    color: #fff;
+    background: blue;
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.task-element h2 {
+    font-size: 18px;
+}
+
+.untreated {
+    background-color: #80004D;
+}
+.pending {
+    background-color: #FF9045;
+}
+.treated {
+    background-color: #0CC5A7;
+}
+.closed {
+    background-color: #00004B;
+}

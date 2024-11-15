@@ -1,0 +1,135 @@
+section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+section > div {
+    margin: 5px 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(181, 180, 180, 0.5);
+}
+
+button {
+    width: 100%;
+    color: #fff;
+    background-color: #00A5AB;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.meeting-section h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.meeting-section h1::after {
+    content: '';
+    display: block;
+    border: 1px solid #dedede;
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.e-calendar .e-header {
+    border-bottom: 1px solid #dedede;
+}
+
+.e-calendar {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-size: 16px;
+    text-align: center;
+}
+h3 {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding: 10px ;
+}
+.scheduled-events {
+    padding: 90px 30px;
+}
+
+.meetings {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 10px;
+}
+.vector-events {
+    display: flex;
+    justify-content: center;
+}
+
+.vector-events > img {
+    width: 50%;
+}
+
+.e-calendar .e-footer-container {
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+}
+
+.tasks-section h1 {
+    border-bottom: 1px solid #dedede;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.performance {
+    display: flex;
+    align-items: center;
+}
+
+.reward {
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.badge-meter {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 20px;
+}
+
+.trophy-status {
+    padding-top: 20px;
+}
+
+.meter {
+    display: flex;
+    align-items: center;
+}
+
+.meter > div {
+    width: 100%;
+    padding-left: 10px;
+}
+
+p, p > span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.percent {
+    text-align: right;
+    width: 100%;
+}
+
+span {
+    color: #828282;
+    font-size: 10px;
+}
